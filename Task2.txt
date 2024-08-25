@@ -1,0 +1,12 @@
+int num = 54;
+
+while (num>0)
+{
+    if (num % 2 !=0&& num!=1)
+    {
+        Console.WriteLine("2-nin quvveti deyil");
+        break;
+    }
+    Console.WriteLine("ikinin quvvetidir");
+    num /= 2;  
+}
